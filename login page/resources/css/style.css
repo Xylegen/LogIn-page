@@ -7,7 +7,7 @@
 .section-form{
     margin: 150px auto;
     display: block;
-   
+
     height: 100vh;
     width: 60%;
 }
@@ -15,8 +15,13 @@
 .row label{
     margin-left: 100px;
     padding-top:40px;
-    
-    
+
+
+}
+.title{
+  text-align: center;
+  font-style: Arial,sans-serif;
+  border-style: groove;
 }
 .span-1-of-3{
     margin-right: 0;
@@ -33,24 +38,25 @@ input[type="pass"]{
     border: 1px solid #9d9d9d;
     border-radius: 3px;
     padding: 10px;
+    background-color: #93b6ed;
 }
 input[type="submit"]{
-    margin: 20px 250px;
-    
+    margin: 30px;
+
+}
+
+input[type="forgot"]{
+   margin-right: 30px;
 }
 
 .submit{
-    width: 20%;
-    float: left;
-    margin-left: 10px;
+    width: 30%;
+    position: absolute; top: 325px; left: 650px;
+
 }
 .forgot{
-    float: right;
+
     width: 65%;
-    margin-top: 10px;
-    margin-left: 0;
+    position: absolute; top: 185px; left: 550px;
+
 }
-
-
-
-

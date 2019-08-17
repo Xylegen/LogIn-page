@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        
+
         <title>Login Page</title>
     </head>
     <body>
+    <div>
+      <h1 class="title">OTOrail Login</h1>
+
+    </div>
         <div class="section-form">
             <div class="row">
                 <div class="col span-1-of-3">
-                    <label for="phno" >Mobile no.</label>
+                    <label for="phno" style="font-weight: bolder;">Mobile no.</label>
                 </div>
                 <div class="col span-2-of-3">
-                    
-                    <input type="phno" name="phno" placeholder="1234567890" required>
+
+                    <input type="phno" name="phno" placeholder="Enter Number" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
-                    <label for="pass" >Password</label>
+                    <label for="pass" style="font-weight: bolder;">Password</label>
                 </div>
                 <div class="col span-2-of-3">
                     <input type="pass" name="pass" placeholder="Enter Password" required>
                 </div>
             </div>
             <div class="submit">
-                <input type="submit" value="Submit">
-                 
+                <i class="fas fa-sign-in-alt" style="text-align: center;"></i><input type="submit" value="Submit">
+
             </div>
             <div class="forgot">
                 <a class="forgot" href="#">Forgot Password</a>
             </div>
-           
-        </div>
-    </body>
+
+        </div
+        </body>
 </html>
